@@ -9,7 +9,7 @@ This work uses the statically compiled advantages and implements the [beamCal](h
 ## Usage
 
 The printout happens in the stdout which depending on the settings in `BeamParameters.hh` the evolution of the machine & beam parameters is followed.
-$$\beta^*$$ and offset leveling are easily performed in terms of root finders, and the crossing angle (anti-)leveling is user based (usually Dynamic Aperture driven).
+$\beta^*$ and offset leveling are easily performed in terms of root finders, and the crossing angle (anti-)leveling is user based (usually Dynamic Aperture driven).
 
 The code assumes the LHC ring, i.e. 4 Interaction Points (IPs). The two high luminosity experiments are always taken into account (IP1/5), while there is also the option of including the impact of IP2/8.
 
@@ -17,7 +17,7 @@ The code assumes the LHC ring, i.e. 4 Interaction Points (IPs). The two high lum
 
 Based on the choices the user "ticked" in the `BeamParameters.hh` and the `.cpp` the code returs:
 - time [h]
-- $$\beta^*$$ in IP1/5 [m]
+- $\beta^{*}$ in IP1/5 [m]
 - Half-Crossing angle in IP1/5 [$\mu$rad]
 - Integrated Luminosity in IP1/5 [$fm^{-1}$]
 - Instantaneous Luminosity in IP1/5 [$10^{34}$ $Hz/cm^{2}$]
@@ -36,7 +36,7 @@ Based on the choices the user "ticked" in the `BeamParameters.hh` and the `.cpp`
 - r.m.s. luminous region in IP8 [cm]
 - Total Pileup in IP8
 - Peak Pileup in IP8 [evt/mm]
-- $$\beta^*$$ in IP2 [m]
+- $\beta^*$ in IP2 [m]
 - Half-Crossing angle in IP2 [$\mu$rad]
 - Parallel Separation in IP2 [$\sigma_{beam}$]
 - Instantaneous Luminosity in IP2 [$10^{34}$ $Hz/cm^{2}$]
