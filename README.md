@@ -13,6 +13,8 @@ $\beta^*$ and offset leveling are easily performed in terms of root finders, and
 
 The code assumes the LHC ring, i.e. 4 Interaction Points (IPs). The two high luminosity experiments are always taken into account (IP1/5), while there is also the option of including the impact of IP2/8.
 
+**N.B. The `compileAtLXPLUS.sh` bash script is available to prepare the installation of the proper GCC and GSL versions as well as the compilation of the code in the CERN AFS LXPLUS environment.**
+
 ## Output
 
 Based on the choices the user "ticked" in the `BeamParameters.hh` and the `.cpp` the code returs:
